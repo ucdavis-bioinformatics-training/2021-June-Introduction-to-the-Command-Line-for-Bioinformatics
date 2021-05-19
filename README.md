@@ -1,9 +1,9 @@
 All documentation for the workshop is best viewed from the github.io pages
 
-[Documentation](https://ucdavis-bioinformatics-training.github.io/2021-March-Introduction-to-the-Command-Line-for-Bioinformatics/)
+[Documentation](https://ucdavis-bioinformatics-training.github.io/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/)
 
 Introduction to the Command Line for Bioinformatics  
-March 2, 5, and 9, 2021 2 p.m. - 5:00 p.m.  
+June 1st, 2nd, and 4th, 2021 2 p.m. - 5:00 p.m.  
 Organizer - Bioinformatics Core  
 Contact - UC Davis Bioinformatics Core, training.bioinformatics@ucdavis.edu
 
@@ -11,13 +11,13 @@ Get off to a good start in bioinformatics with this three-part online workshop i
 
 This workshop consists of three half-day sessions, combining lecture and exercises in a survey of the basics of the command line for bioinformatics. Completion of this material will allow participants to get the most out of our other experiment-centric workshops. We recommend this course for all beginners.
 
-Introduction to the Command Line for Bioinformatics is scheduled from 2:00 pm to 5:00 pm on Tuesday, March 2, Friday, March 5, and Tuesday, March 9.
+Introduction to the Command Line for Bioinformatics is scheduled from 2:00 pm to 5:00 pm on Monday, June 1st, Tuesday, June 2nd, and Friday, June 4th.
 
-Participants must have access to a computer with a recent version of R, Rstudio, and Java installed, and an application that allows them to ssh into a server (e.g. Windows PowerShell, Terminal or iTerm2 on a Mac, or Bash for Linux), as well as a reliable internet connection.
+Participants must have a Mac, a Linux machine, or Windows 10.
 
 The registration fee is $300 for UC students, postdocs, staff and faculty, $450 for Non-UC academic or non-profit participants and $600 for other participants. We accept credit cards, as well as UC Davis recharge accounts, for payment. We are pleased to be able to offer three group pricing bundle options for labs with multiple registrants: 15% off registration for groups of 3-5, 25% off registration for groups of 6-10, and custom instructional packages for groups larger than 10. If you are interested in one of these pricing options, please contact us at training.bioinformatics@ucdavis.edu for a custom coupon code.
 
-Registration closes on February 26, 2021.
+Registration closes on May 31st, 2021.
 
 ### FAQ
 
@@ -40,4 +40,4 @@ If you have any questions, please don’t hesitate to contact us at training.bio
 
 ### Register
 
-[Register for Introduction to the Command Line for Bioinformatics at the Genome Center Event Registration site.](https://registration.genomecenter.ucdavis.edu/events/cli_march_2021/)
+[Register for Introduction to the Command Line for Bioinformatics at the Genome Center Event Registration site.](https://registration.genomecenter.ucdavis.edu/events/cli_june_2021/)
