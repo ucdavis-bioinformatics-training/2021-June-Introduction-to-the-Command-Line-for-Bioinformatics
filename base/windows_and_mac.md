@@ -1,11 +1,11 @@
 Setting up Windows 10 for Command-Line
-=======================================
+---------------------------------------
 
 In order to get a command line terminal for Windows 10, you will need to enable the WSL (Windows Subsystem for Linux) and install Ubuntu. Follow [these instructions](https://linuxhint.com/install_ubuntu_windows_10_wsl/) for installation.
 
 
 Setting up a Mac for Command-Line
-==================================
+-----------------------------------
 
 A Mac is already set up for the command-line, but you will probably need to install homebrew and then use brew to install some other packages. So first [open a Terminal](https://www.wikihow.com/Open-a-Terminal-Window-in-Mac) and then go to the [homebrew page](https://brew.sh/) and follow the instructions. You basically need to copy and paste this line:
 
