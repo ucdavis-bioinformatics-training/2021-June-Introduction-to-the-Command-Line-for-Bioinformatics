@@ -19,6 +19,8 @@ navigation:
     url: base/zoom
   - title: Cheat Sheets
     url: base/cheatSheetIndex
+  - title: Windows 10 and Mac installation
+    url: base/windows_and_mac
 
   - heading: CLI
   - title: Introduction to the Command Line 1
