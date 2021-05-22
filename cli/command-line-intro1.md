@@ -370,3 +370,7 @@ submitButton2.addEventListener('click', function() {showResults(myQuestions2, qu
 
 
 
+HOMEWORK
+---------
+
+Practice moving around directories from the root directory. Practice listing directories and moving around to different directories using both absolute and relative paths. Make sure to practice and use tab-completion a lot! Find your root directory in a File Explorer and practice navigating there and then doing the same navigation on the command-line.
