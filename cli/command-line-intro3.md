@@ -78,7 +78,7 @@ The sed command
 
 Let's take a look at the 'sed' command. **NOTE: On Macs use 'gsed'**. sed (short for stream editor) is a command that allows you to manipulate character data in various ways. One useful thing it can do is substitution. Let's download a simple file to work on:
 
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-March-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/region.bed -O region.bed
+    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/region.bed -O region.bed
 
 Take a look at the file:
 
@@ -127,9 +127,9 @@ More pipes
 
 Now, let's delve into pipes a little more. Pipes are a very powerful way to look at and manipulate complex data using a series of simple programs. Let's look at some fastq files. Get a few small fastq files:
 
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-March-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/C61.subset.fq.gz -O C61.subset.fq.gz
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-March-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I561.subset.fq.gz -O I561.subset.fq.gz
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-March-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I894.subset.fq.gz -O I894.subset.fq.gz
+    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/C61.subset.fq.gz -O C61.subset.fq.gz
+    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I561.subset.fq.gz -O I561.subset.fq.gz
+    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I894.subset.fq.gz -O I894.subset.fq.gz
 
 Since the files are gzipped files we need to use "zcat" to look at them. zcat is just like cat except for gzipped files:
 
@@ -467,3 +467,9 @@ myQuestions5 = [
 buildQuiz(myQuestions5, quizContainer5);
 submitButton5.addEventListener('click', function() {showResults(myQuestions5, quizContainer5, resultsContainer5);});
 </script>
+
+
+HOMEWORK
+---------
+
+Using the region.bed file, find the distance between the start and end coordinates for every line. You should be able to do this using only the command line. You will probably need to use the backtick characters to store the result of a command in a variable and you will also need to use the **expr** command. Look at the manual page for **expr** to learn how to use it. Once you have that figured out, create a shell script that will take a chromosome name as input and then will find the distances on each line for only that chromosome.
