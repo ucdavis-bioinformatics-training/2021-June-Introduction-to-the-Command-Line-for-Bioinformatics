@@ -381,6 +381,7 @@ HOMEWORK
 ---------
 
 Download the following file:
+
 http://igenomes.illumina.com.s3-website-us-east-1.amazonaws.com/Escherichia_coli_K_12_MG1655/NCBI/2001-10-15/Escherichia_coli_K_12_MG1655_NCBI_2001-10-15.tar.gz
 
 Uncompress and extract the archive. Find all of the files named "refGene.txt". Find the files sizes for each of them. Now find a file called "adapter_contam1.fa". Look at the file. Use pipes to find the length of the adapter.
