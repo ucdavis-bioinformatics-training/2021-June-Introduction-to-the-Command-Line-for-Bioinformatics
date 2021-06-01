@@ -301,19 +301,19 @@ You can think of paths like addresses. You can tell your friend how to go to a p
 
 **relative** (start here, take one step up, then down through lib and gcc)
 
-    cd ../lib/gcc/
+    cd ../lib/init/
     pwd
 
 **absolute** (start at root, take steps)
 
-    cd /usr/lib/gcc/
+    cd /usr/lib/init/
     pwd
 
 Now, because it can be a real pain to type out, or remember these long paths, we need to discuss ...
 
 ## Tab Completion
 
-Using tab-completion is a must on the command line. A single <tab> auto-completes file or directory names when there's only one name that could be completed correctly. If multiple files could satisfy the tab-completion, then nothing will happen after the first <tab>. In this case, press <tab> a second time to list all the possible completing names. Note that if you've already made a mistake that means that no files will ever be completed correctly from its current state, then <tab>'s will do nothing.
+Using tab-completion is a must on the command line. A single \<tab\> auto-completes file or directory names when there's only one name that could be completed correctly. If multiple files could satisfy the tab-completion, then nothing will happen after the first \<tab\>. In this case, press \<tab\> a second time to list all the possible completing names. Note that if you've already made a mistake that means that no files will ever be completed correctly from its current state, then \<tab\>'s will do nothing.
 
 touch updates the timestamp on a file, here we use it to create three empty files.
 
@@ -353,7 +353,7 @@ myQuestions2 = [
     correctAnswer: "a"
   },
   {
-    question: "From the /usr/bin directory, verify that the two following commands are equivalent:<br/><br/>cd ../../lib/gcc/<br/>cd ../../../../../../../lib/gcc<br/><br/>Why are these very different-looking commands equivalent?",
+    question: "From the /usr/bin directory, verify that the two following commands are equivalent:<br/><br/>cd ../../lib/init/<br/>cd ../../../../../../../lib/init<br/><br/>Why are these very different-looking commands equivalent?",
     answers: {
       a: "The cd command knows where your home directory resides",
       b: "The terminal ignores excess dots",
