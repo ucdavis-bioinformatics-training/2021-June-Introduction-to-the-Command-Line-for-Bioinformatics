@@ -114,10 +114,9 @@ You can also search your history from the command line:
 
 ## Create and Destroy
 
-We already learned one command that will create a file, touch. Lets create a folder in /share/workshop for you to work in and then another directory cli. We will use the environment variable $USER, that contains your username.
+We already learned one command that will create a file, touch. Now let's look at create and removing files and directories.
 
     cd  # home again
-    echo $USER # echo to screen the contents of the variable $USER
     mkdir ~/tmp2
     cd ~/tmp2
     echo 'Hello, world!' > first.txt
@@ -193,16 +192,6 @@ myQuestions3 = [
       d: "You get an error message"
     },
     correctAnswer: "d"
-  },
-  {
-    question: "Use ls to find the size (in bytes) of the last file in the /sbin directory.",
-    answers: {
-      a: "33211",
-      b: "77064",
-      c: "1058216",
-      d: "1103"
-    },
-    correctAnswer: "b"
   }
 ];
 
