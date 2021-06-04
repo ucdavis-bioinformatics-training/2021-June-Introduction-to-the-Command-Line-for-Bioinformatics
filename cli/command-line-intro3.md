@@ -78,7 +78,7 @@ The sed command
 
 Let's take a look at the 'sed' command. **NOTE: On Macs use 'gsed'**. sed (short for stream editor) is a command that allows you to manipulate character data in various ways. One useful thing it can do is substitution. Let's download a simple file to work on:
 
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/region.bed -O region.bed
+    wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/region.bed -O region.bed
 
 Take a look at the file:
 
@@ -127,9 +127,9 @@ More pipes
 
 Now, let's delve into pipes a little more. Pipes are a very powerful way to look at and manipulate complex data using a series of simple programs. Let's look at some fastq files. Get a few small fastq files:
 
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/C61.subset.fq.gz -O C61.subset.fq.gz
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I561.subset.fq.gz -O I561.subset.fq.gz
-    wget -L https://github.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/raw/main/cli/I894.subset.fq.gz -O I894.subset.fq.gz
+    wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/C61.subset.fq.gz -O C61.subset.fq.gz
+    wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/I561.subset.fq.gz -O I561.subset.fq.gz
+    wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/I894.subset.fq.gz -O I894.subset.fq.gz
 
 Since the files are gzipped files we need to use "zcat" to look at them. zcat is just like cat except for gzipped files:
 
